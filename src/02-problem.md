@@ -9,9 +9,3 @@ $$1, 2, 3, 5, 8, 13, 21, 34, 55, 89, \dots$$
 
 By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
-$$
-\begin{aligned}
-35x + 21y - 11z &= 100 \\
-10x + 24y - 25z &= -100 
-\end{aligned}
-$$
