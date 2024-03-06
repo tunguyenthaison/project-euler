@@ -5,6 +5,6 @@ Collections of my solutions to Project Euler problems are predominantly coded in
 
 
 |Number| Name                   | Date      | Code & Note               |
-|:---: | :---:                  |    ----:  |          :---:            |
+|:---: | :---                  |    :----  |          ---:            |
 | 1    | Multiples of 3 or 5    | 2024-03-05| [code](/src/01-problem.py)|
 | 2    | Paragraph              | Text      | And more                  |`
