@@ -14,15 +14,16 @@ def is_palindrome(n: int) -> bool:
 
 
 def largest_palindrome_product(n_digit: int) -> list[int]:    
+    # brute-force solution
     max_numb = 1
     for i in range(n_digit):
         max_numb *= 10
     max_numb -= 1
     max_palindrome = 0
     for x in range(max_numb, 99, -1):
-        for y in range(x, 99, -1):
+        for y in range(max_numb, x-1, -1):
             n = x*y
-            if is_palindrome(n) and n > max_palindrome:
+            if n > max_palindrome and is_palindrome(n):
                 max_palindrome = n
     return max_palindrome
 
