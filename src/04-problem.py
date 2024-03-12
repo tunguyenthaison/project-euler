@@ -1,7 +1,7 @@
 # A palindromic number reads the same both ways. The largest palindrome made 
 # from the product of two -digit numbers is 9009=91*99.
 # Find the largest palindrome made from the product of 3-digit numbers.
-
+from timeit import default_timer as timer
 
 def is_palindrome(n: int) -> bool:
     digits = []
@@ -21,6 +21,8 @@ def largest_palindrome_product(n_digit: int) -> list[int]:
     max_numb -= 1
     max_palindrome = 0
     for x in range(max_numb, 99, -1):
+        if max_palindrome >= x*999:
+            break
         for y in range(max_numb, x-1, -1):
             n = x*y
             if n > max_palindrome and is_palindrome(n):
@@ -28,4 +30,7 @@ def largest_palindrome_product(n_digit: int) -> list[int]:
     return max_palindrome
 
 if __name__ == "__main__":
+    start = timer() 
     print(largest_palindrome_product(3))
+    end = timer()
+    print(end - start)
