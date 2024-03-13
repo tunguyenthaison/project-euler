@@ -11,3 +11,4 @@ Collections of my solutions to Project Euler problems are predominantly coded in
 | 2    | Even Fibonacci Numbers                                             | 2024-03-06 | [code](/src/02-problem.py)                |
 | 3    | Largest Prime Factor                                               | 2024-03-09 | [code](/src/03-problem.py)                |
 | 4    | [Largest Palindrome Product](https://projecteuler.net/problem=4)   | 2024-03-11 | [code](/src/04-problem.py)                |
+| 5    | [Smallest Multiple](https://projecteuler.net/problem=5)            | 2024-03-12 | [code](/src/05-problem.py)                |
