@@ -13,4 +13,4 @@ Collections of my solutions to Project Euler problems are predominantly coded in
 | 4    | [Largest Palindrome Product](https://projecteuler.net/problem=4)                   | 2024-03-11 | [code](/src/04-problem.py)                |
 | 5    | [Smallest Multiple](https://projecteuler.net/problem=5)                            | 2024-03-12 | [code](/src/05-problem.py)                |
 | 6    | [Sum Square Difference](https://projecteuler.net/problem=6)                        | 2024-03-12 | [note](/src/06-problem.md) &#x2022; [code](/src/06-problem.py)  |
-| 269  | [Polynomials with at Least One Integer Root](https://projecteuler.net/problem=269) | 2024-03-12 | [note](/src/269-problem.md) &#x2022; [code](/src/269-problem.py) |
+| 269  | [Polynomials with at Least One Integer Root](https://projecteuler.net/problem=269) | 2024-03-13 | [note](/src/269-problem.md) &#x2022; [code](/src/269-problem.py) |
