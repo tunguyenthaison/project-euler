@@ -1,25 +1,43 @@
 import time
 import math
 
+
 def largest_product(n: str, size: int = 4) -> int:
-
-    # delete the empty space and \n characters
-    clean_str = n.replace(" ", "")
+    # brute-force     
+    clean_str = n.replace(" ", "") # delete the empty space and \n characters
     clean_str = clean_str.replace("\n", "")
-
     max_product = 0
-    
     for i in range(len(clean_str)-size):
-        
         sub_int = [int(clean_str[j]) for j in range(i, i + size, 1)]
         product = math.prod(sub_int)
-
         if product > max_product:
             max_product = product
-
     return max_product
 
+def largest_product_update(n: str, size: int = 4) -> int:
+    # using loop and check instead of list comprehension
+    clean_str = n.replace(" ", "") # delete the empty space and \n characters
+    clean_str = clean_str.replace("\n", "")
+    max_product = 0
+    i = 0
+    while i + size < len(clean_str):
+        product = 1
+        for j in range(i, i + size, 1):
+            if clean_str[j] == '0':
+                i = j + 1
+                break
+            else:
+                product *= int(clean_str[j]) 
+        # update i
+        i += 1
+        # update max_product
+        if product > max_product:
+            max_product = product
+    return max_product
+        
+
 if __name__ == "__main__":
+    size = 13
     n =  """73167176531330624919225119674426574742355349194934
             96983520312774506326239578318016984801869478851843
             85861560789112949495459501737958331952853208805511
@@ -41,5 +59,11 @@ if __name__ == "__main__":
             05886116467109405077541002256983155200055935729725
             71636269561882670428252483600823257530420752963450"""
     start_time = time.time()
-    print(largest_product(n,13))
+    print(largest_product(n,size))
+    print(time.time() - start_time)
+
+    print('---------------------------')
+
+    start_time = time.time()
+    print(largest_product_update(n,size))
     print(time.time() - start_time)
