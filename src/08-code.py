@@ -1,8 +1,27 @@
 import time
+import math
+
+def largest_product(n: str, size: int = 4) -> int:
+
+    # delete the empty space and \n characters
+    clean_str = n.replace(" ", "")
+    clean_str = clean_str.replace("\n", "")
+
+    max_product = 0
+    
+    for i in range(len(clean_str)-size):
+        
+        sub_int = [int(clean_str[j]) for j in range(i, i + size, 1)]
+        product = math.prod(sub_int)
+
+        if product > max_product:
+            max_product = product
+
+    return max_product
 
 if __name__ == "__main__":
-    n = """ 73167176531330624919225119674426574742355349194934 
-            96983520312774506326239578318016984801869478851843 
+    n =  """73167176531330624919225119674426574742355349194934
+            96983520312774506326239578318016984801869478851843
             85861560789112949495459501737958331952853208805511
             12540698747158523863050715693290963295227443043557
             66896648950445244523161731856403098711121722383113
@@ -20,7 +39,7 @@ if __name__ == "__main__":
             07198403850962455444362981230987879927244284909188
             84580156166097919133875499200524063689912560717606
             05886116467109405077541002256983155200055935729725
-            71636269561882670428252483600823257530420752963450 """
+            71636269561882670428252483600823257530420752963450"""
     start_time = time.time()
-    print(n)
+    print(largest_product(n,13))
     print(time.time() - start_time)
