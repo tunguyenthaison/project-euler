@@ -1,15 +1,27 @@
 import time
+import math
 
 def check_int_sol_quadratic(B: int, C: int):
     # check if x^2 - Bx + C = 0 
     # has two distinct integer solutions
-    for x1 in range(1, B, 1):
-        if C % x1 == 0:
-            x2 = C // x1 
-            if x1 + x2 == B:
-                return [x1, x2]
+    # for x1 in range(1, B, 1):
+    #     if C % x1 == 0:
+    #         x2 = C // x1 
+    #         if x1 + x2 == B:
+    #             return [x1, x2]
+    # return None
+    Delta = B**2 - 4*C 
+    if Delta <= 0: 
+        return None
+    else:
+        sqrtDelta = int(math.sqrt(Delta))
+        if sqrtDelta * sqrtDelta == Delta:
+            x1 = (-B + sqrtDelta) //2 
+            x2 = (-B - sqrtDelta) //2 
+            return [x1, x2]
+        else:
+            return None
     return None
-
 
 def pythagorean_triplet(n: int) -> list[int]:
     # ab = n * k
