@@ -37,8 +37,10 @@ Hence
 
 $$
 \begin{cases}
+\begin{aligned}
     a + b &=  \frac{n}{2} - k \\
     a b   &= nk. 
+\end{aligned}
 \end{cases}
 $$  
 
