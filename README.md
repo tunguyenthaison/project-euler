@@ -17,5 +17,5 @@ Collections of my solutions to Project Euler problems are predominantly coded in
 | 6    | [Sum Square Difference](https://projecteuler.net/problem=6)                        | 2024-03-12 | [note](/src/06-problem.md) &#x2022; [code](/src/06-problem.py)  |        |
 | 7    | [10001st Prime](https://projecteuler.net/problem=7)                                | 2024-03-13 | [code](/src/07-code.py)                                         |        |
 | 8    | [Largest Product in a Series](https://projecteuler.net/problem=8)                  | 2024-03-14 | [code](/src/08-code.py)                                         |        |
-| 9    | [Special Pythagorean Triplet](https://projecteuler.net/problem=9)                  | 2024-03-15 | [note](src/09-note.md) &#x2022; [code](src/09-code.py)        |$\mathcal{O}(n)$|
+| 9    | [Special Pythagorean Triplet](https://projecteuler.net/problem=9)                  | 2024-03-15 | [note](/src/09-note.md) &#x2022; [code](/src/09-code.py)        |$\mathcal{O}(n)$|
 <!-- | 269  | [Polynomials with at Least One Integer Root](https://projecteuler.net/problem=269) | 2024-03-13 | [note](/src/269-problem.md) &#x2022; [code](/src/269-problem.py) | -->
