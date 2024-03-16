@@ -42,7 +42,7 @@ $$
 \end{cases}
 $$  
 
-We only need to run an $\mathcal{O}(1)$-algorithm, using the quadractic formula to check if there is integer solution to 
+We only need to run an $\mathcal{O}(1)$-algorithm, using the quadratic formula, to check if there is an integer solution.
 
 $$
     x^2 - Bx + C = 0.
