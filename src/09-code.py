@@ -1,4 +1,4 @@
-
+import time
 
 def check_int_sol_quadratic(B: int, C: int):
     # check if x^2 - Bx + C = 0 
@@ -14,7 +14,7 @@ def check_int_sol_quadratic(B: int, C: int):
 def pythagorean_triplet(n: int) -> list[int]:
     # ab = n * k
     for k in range(2, n // 2, 1):
-        c = (n // 2)- k
+        c = (n // 2) - k
         # look for a^2 + b^2 = c^2 
         # THEN 
         # (1) a + b = k + n // 2
@@ -30,7 +30,9 @@ def pythagorean_triplet(n: int) -> list[int]:
 
 
 if __name__ == "__main__":
-    n = 1000    
+    n = 100000
+    start_time = time.time()
+
     ans = pythagorean_triplet(n)
     if ans != None:
         print(f'a,b,c = {ans}')
@@ -38,3 +40,4 @@ if __name__ == "__main__":
 
     print(product)
     
+    print(time.time() - start_time)
