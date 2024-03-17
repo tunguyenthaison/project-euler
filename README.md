@@ -1,4 +1,4 @@
-<!-- ![logo](https://projecteuler.net/profile/tntmath.png) -->
+![logo](https://projecteuler.net/profile/tntmath.png)
 
 # Project Euler 
 Productive coding is a rewarding way to spend leisure time
