@@ -8,7 +8,7 @@ Collections of my solutions to Project Euler problems are predominantly coded in
 
 
 |Number| Name                                                                               | Date       | Code & Note                                                   | Remark |
-|:---: | :---                                                                               |    :----   |          ---:                                                 |:---:   |
+|:---: | :---                                                                               |    :----   |          ---:                                                 |---:   |
 | 1    | Multiples of 3 or 5                                                                | 2024-03-05 | [note](src/01-problem.md) &#x2022; [code](src/01-problem.py)  |$\mathcal{O}(1)$|
 | 2    | Even Fibonacci Numbers                                                             | 2024-03-06 | [code](src/02-problem.py)                                     |        |
 | 3    | Largest Prime Factor                                                               | 2024-03-09 | [code](src/03-problem.py)                                     |        |
