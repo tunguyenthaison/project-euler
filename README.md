@@ -6,7 +6,7 @@ Productive coding is a rewarding way to spend leisure time
 ## About this repo
 Collections of my solutions to Project Euler problems are predominantly coded in `Python`, accompanied by notes detailing my thought processes in tackling these problems.
 
-<div style="text-align: center;">
+<div style="text-align: center; display: block;">
 
 |Number| Name                                                                               | Date       | Code & Note                                                   | Remark |
 |:---: | :---                                                                               |    :----   |          ---:                                                 |:---   |
