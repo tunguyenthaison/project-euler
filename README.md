@@ -19,4 +19,5 @@ Collections of my solutions to Project Euler problems are predominantly coded in
 | 8    | [Largest Product in a Series](https://projecteuler.net/problem=8)                  | 2024-03-14 | [code](src/08-code.py)                                        |        |
 | 9    | [Special Pythagorean Triplet](https://projecteuler.net/problem=9)                  | 2024-03-15 | [note](src/09-note.md) &#x2022; [code](src/09-code.py)        |$\mathcal{O}(n)$|
 |10    | [Summation of Primes](https://projecteuler.net/problem=10)                         | 2024-03-17 | [note](src/10-note.md) &#x2022; [code](src/10-code.py)        |$\mathcal{O}\left(n^2\right)$|
+|11    | [Largest Product in a Grid](https://projecteuler.net/problem=11)                   | 2024-03-17 | [note](src/11-note.md) &#x2022; [code](src/11-code.py)        ||
 <!-- | 269  | [Polynomials with at Least One Integer Root](https://projecteuler.net/problem=269) | 2024-03-13 | [note](/src/269-problem.md) &#x2022; [code](/src/269-problem.py) | -->
