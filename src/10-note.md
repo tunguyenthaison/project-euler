@@ -25,13 +25,15 @@ Given $n$, we first create a list of all prime numbers:
 Let $\pi(x)$ be the prime-counting function defined to be the number of primes less than or equal to $x$, for any real number $x$, then the [asymptotic law of distribution of prime numbers](https://en.wikipedia.org/wiki/Prime_number_theorem) says that [^1]:
 
 $$
-    \pi(x) \sim \frac{x}{\mathrm{log}\;x}. 
+    \pi(x) \sim \frac{x}{\mathrm{log}\;x} \qquad\text{as}\qquad x\to +\infty.
 $$
+
 Using this, we have 
 
 $$
     \text{complexity} \leq \mathcal{O}(n \times \pi(n)) \sim \mathcal{O}\left(\frac{n^2}{\log(n)}\right).
 $$
+
 It is a tiny bit better than $\mathcal{O}(n^2)$ but not really much.
 
 
