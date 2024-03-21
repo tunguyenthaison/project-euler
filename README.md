@@ -25,3 +25,4 @@ Collections of my solutions to Project Euler problems are predominantly coded in
 <!-- | 269  | [Polynomials with at Least One Integer Root](https://projecteuler.net/problem=269) | 2024-03-13 | [note](/src/269-problem.md) &#x2022; [code](/src/269-problem.py) | -->
 
 </div>
+
