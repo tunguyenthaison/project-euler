@@ -44,3 +44,12 @@ The question is, given $n$, finding the first $T_k$ such that $\mathfrak{D}(T_k)
   $$
 
 - The question is: how to estimate $k$ in terms of $n$?
+
+## Some related ideas
+Check [Divisor function - Wiki](https://en.wikipedia.org/wiki/Divisor_function), that the function we defined above is 
+
+$$
+    \sigma_0(m) = \mathfrak{D}(m) 
+                = \text{the number of divisors of}\;m 
+                = \sum_{d\,|\,m} d^0. 
+$$
