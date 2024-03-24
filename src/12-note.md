@@ -90,4 +90,4 @@ is satisfied if $k> Cn^{1/2}$. The total complexity is thus
 $$
     \mathcal{O}(k^2) \sim \mathcal{O}(n).
 $$
-However it does not seem to be true, as the solution runs so slow still.
+However it does not seem to be true, as the solution runs so slow still. 

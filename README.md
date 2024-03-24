@@ -22,6 +22,7 @@ Collections of my solutions to Project Euler problems are predominantly coded in
 |10    | [Summation of Primes](https://projecteuler.net/problem=10)                         | 2024-03-17 | [note](src/10-note.md) &#x2022; [code](src/10-code.py)      |        |$\mathcal{O}\left(n^2\right)$|
 |11    | [Largest Product in a Grid](https://projecteuler.net/problem=11)                   | 2024-03-17 | [note](src/11-note.md) &#x2022; [code](src/11-code.py)      |        |$\mathcal{O}\left(n^2\right)$|
 |12    | [Highly Divisible Triangular Number](https://projecteuler.net/problem=12)          | 2024-03-18 | [note](src/12-note.md) &#x2022; [code](src/12-code.py)      |        |$\mathcal{O}\left(?\right)$|
+|30    | [Digit Fifth Powers](https://projecteuler.net/problem=30)                          | 2024-03-23 | [note](src/30-note.md) &#x2022; [code](src/30-code.py)      |        |$\mathcal{O}\left(?\right)$|
 <!-- | 269  | [Polynomials with at Least One Integer Root](https://projecteuler.net/problem=269) | 2024-03-13 | [note](/src/269-problem.md) &#x2022; [code](/src/269-problem.py) | -->
 
 </div>

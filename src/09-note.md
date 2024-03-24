@@ -9,10 +9,15 @@ There exists exactly one Pythagorean triplet for which $a + b + c = 1000$.<br>Fi
 
 ---
 
+Here $n=1000$.
+
 We write 
 
 $$
-    (a+b)^2 = (n - c)^2 \qquad \Longrightarrow\qquad 2ab+2nc = n^2 .
+\begin{aligned}
+    (a+b)^2 &= (n - c)^2 \qquad \Longrightarrow\qquad 2ab+2nc = n^2 \\
+    a^2 + 2ab + b^2 &= n^2 -2nc + c^2
+\end{aligned}
 $$
 
 Therefore
