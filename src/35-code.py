@@ -47,6 +47,3 @@ if __name__ == "__main__":
     start = time.time()
     print(len(circular_primes(n)))
     print(f'time = {time.time() - start}')
-# start. list_primes = [2,3]
-# 1. end = 3 + 2 = 5
-   # check if 5 is divisible by any of the number in list_primes 
