@@ -15,7 +15,7 @@ The `docs` folder is made using a jekyll template that based on [`jekyll-forever
 | 1    | Multiples of 3 or 5                                                                | 2024-03-05 | [note](src/01-problem.md) &#x2022; [code](src/01-problem.py)|&#10004;|$\mathcal{O}(1)$|
 | 2    | Even Fibonacci Numbers                                                             | 2024-03-06 | [code](src/02-problem.py)                                   |        |        |
 | 3    | Largest Prime Factor                                                               | 2024-03-09 | [code](src/03-problem.py)                                   |        |        |
-| 4    | [Largest Palindrome Product](https://projecteuler.net/problem=4)                   | 2024-03-11 | [code](src/04-problem.py)                                   |        |        |
+| 4    | [Largest Palindrome Product](https://projecteuler.net/problem=4)                   | 2024-03-11 | [code](./src/04-problem.py)                                   |        |        |
 | 5    | [Smallest Multiple](https://projecteuler.net/problem=5)                            | 2024-03-12 | [code](src/05-problem.py)                                   |        |        |
 | 6    | [Sum Square Difference](https://projecteuler.net/problem=6)                        | 2024-03-12 | [note](src/06-problem.md) &#x2022; [code](src/06-problem.py)|        |$\mathcal{O}(1)$|
 | 7    | [10001st Prime](https://projecteuler.net/problem=7)                                | 2024-03-13 | [code](src/07-code.py)                                      |        |        |
