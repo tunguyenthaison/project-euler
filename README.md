@@ -6,6 +6,8 @@ Productive coding is a rewarding way to spend leisure time
 ## About this repo
 Collections of my solutions to Project Euler problems are predominantly coded in `Python`, accompanied by notes detailing my thought processes in tackling these problems.
 
+The `docs` folder is made using a jekyll template that based on [`jekyll-forever`](https://github.com/forever-jekyll/forever-jekyll) with support for latex added.
+
 <div align="center">
 
 |Number| Name                                                                               | Date       | Code & Note                                                 |Optimal | Remark |
